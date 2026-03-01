@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ex03_BARB_model" id="6EA9DEA8-274B-C8C4-68C2-05E6CFB3C83A" version="3.5">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 10:58:51 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6EA9DEA8-274B-C8C4-68C2-05E6CFB3C83A</designId>
+</OSDM_Design>

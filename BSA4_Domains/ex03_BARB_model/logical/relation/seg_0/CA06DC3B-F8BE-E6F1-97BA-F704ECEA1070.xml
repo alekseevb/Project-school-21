@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="CA06DC3B-F8BE-E6F1-97BA-F704ECEA1070">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 11:25:38 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<engineerTo>
+<item key="71112422-1322-CCC4-3CBF-6B3B46D2EBDB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Оказывает</nameOnSource>
+<nameOnTarget>Бронирует</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>164D2E1C-F2C5-1572-32C7-2D428A682D14</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D2C2F2F-DF60-3C65-A2D4-78FF579ED49A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

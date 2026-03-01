@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="164D2E1C-F2C5-1572-32C7-2D428A682D14" name="Услуга">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 11:04:41 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<engineerTo>
+<item key="71112422-1322-CCC4-3CBF-6B3B46D2EBDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="service_id" id="38FA4E61-B2FD-3B57-462F-AAB6F642CE8B">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 11:08:29 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<engineerTo>
+<item key="71112422-1322-CCC4-3CBF-6B3B46D2EBDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="service_name" id="768F0994-BDEF-F87F-3C57-C71246059808">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 11:08:36 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<engineerTo>
+<item key="71112422-1322-CCC4-3CBF-6B3B46D2EBDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="service_type" id="20CFEE42-BE63-4B0A-AFD8-1ED239E88A65">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 11:08:47 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<engineerTo>
+<item key="71112422-1322-CCC4-3CBF-6B3B46D2EBDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duration_min" id="F2D75869-2071-CB96-806E-A82AFE2B5FC3">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 11:08:57 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<engineerTo>
+<item key="71112422-1322-CCC4-3CBF-6B3B46D2EBDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="DF9614B7-600C-47CB-0875-387502B999B6">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 11:09:23 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<engineerTo>
+<item key="71112422-1322-CCC4-3CBF-6B3B46D2EBDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2109676-557C-A821-4F7B-8B61D0AEEE3B" name="Услуга PK">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 11:08:32 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<engineerTo>
+<item key="71112422-1322-CCC4-3CBF-6B3B46D2EBDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38FA4E61-B2FD-3B57-462F-AAB6F642CE8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AA5A3360-536D-3F3D-8759-AE679BFEEEA3" mainViewID="E031DC3A-BD24-96FD-7BB6-628F6321A70E">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 10:58:51 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

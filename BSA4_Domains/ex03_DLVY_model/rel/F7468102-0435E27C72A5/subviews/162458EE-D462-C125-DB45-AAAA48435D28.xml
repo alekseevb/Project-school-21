@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="162458EE-D462-C125-DB45-AAAA48435D28">
+<createdBy>alekseev</createdBy>
+<modifiedBy>alekseev</modifiedBy>
+<createdTime>2026-02-06 11:10:14 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<diagramViews>
+<DiagramView class="oracle.dbtools.crest.swingui.TVDiagramView" oid="52FB6E56-1E2C-17F1-51A3-E40FF46DCAD2" dpv_id="492113C8-26F9-182A-1D7B-36587D30EDFB" vid="142BFB57-AEE4-3E0B-C7E5-556C0F870F1D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="50" y="50" width="170" height="110"/>
+<rdiagramName>Logical</rdiagramName>
+<rdiagramID>492113C8-26F9-182A-1D7B-36587D30EDFB</rdiagramID>
+</DiagramView>
+<DiagramView class="oracle.dbtools.crest.swingui.TVDiagramView" oid="66BE80B0-26C1-9A45-EBA6-F6220B337845" dpv_id="492113C8-26F9-182A-1D7B-36587D30EDFB" vid="F00D5C6C-0CD7-3F49-4523-0CDB95EC4280">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="60" y="70" width="170" height="110"/>
+<rdiagramName>Logical</rdiagramName>
+<rdiagramID>492113C8-26F9-182A-1D7B-36587D30EDFB</rdiagramID>
+</DiagramView>
+</diagramViews>
+</Diagram>

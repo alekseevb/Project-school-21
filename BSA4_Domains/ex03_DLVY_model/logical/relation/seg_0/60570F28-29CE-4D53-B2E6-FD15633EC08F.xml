@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="60570F28-29CE-4D53-B2E6-FD15633EC08F">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 10:34:52 UTC</createdTime>
+<ownerDesignName>ex03_DLVY_model</ownerDesignName>
+<engineerTo>
+<item key="F7468102-8595-7832-D7D5-0435E27C72A5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Бронирует</nameOnSource>
+<nameOnTarget>Назначает</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6B3D3737-AFAD-C17B-CCEB-3070682DD948</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D215B215-E238-CD05-9B8C-D7A46BDA9354</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

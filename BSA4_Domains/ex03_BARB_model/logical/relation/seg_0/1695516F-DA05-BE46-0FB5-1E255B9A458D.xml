@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="1695516F-DA05-BE46-0FB5-1E255B9A458D">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 11:27:55 UTC</createdTime>
+<ownerDesignName>ex03_BARB_model</ownerDesignName>
+<engineerTo>
+<item key="71112422-1322-CCC4-3CBF-6B3B46D2EBDB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Ставит</nameOnSource>
+<nameOnTarget>выбирает</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3945000B-7985-0859-9DDC-B13714052556</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2177E9C2-5D69-4945-16AC-CA68B355C062</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

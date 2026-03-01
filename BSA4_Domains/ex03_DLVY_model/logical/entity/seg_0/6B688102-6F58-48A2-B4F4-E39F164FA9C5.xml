@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B688102-6F58-48A2-B4F4-E39F164FA9C5" name="Начисление курьеру">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 09:24:34 UTC</createdTime>
+<ownerDesignName>ex03_DLVY_model</ownerDesignName>
+<engineerTo>
+<item key="F7468102-8595-7832-D7D5-0435E27C72A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="payout_id" id="FA7CB402-9652-A670-68C6-8E332C3613B0">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 09:30:49 UTC</createdTime>
+<ownerDesignName>ex03_DLVY_model</ownerDesignName>
+<engineerTo>
+<item key="F7468102-8595-7832-D7D5-0435E27C72A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payout_amount" id="7BB28382-1D82-2C2C-92EC-27B67666597D">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 09:30:55 UTC</createdTime>
+<ownerDesignName>ex03_DLVY_model</ownerDesignName>
+<engineerTo>
+<item key="F7468102-8595-7832-D7D5-0435E27C72A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payout_status" id="990541B8-4F51-C414-D49F-A3CAC1AA575D">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 09:31:04 UTC</createdTime>
+<ownerDesignName>ex03_DLVY_model</ownerDesignName>
+<engineerTo>
+<item key="F7468102-8595-7832-D7D5-0435E27C72A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="courier_id" id="4E2FB5F6-1AD7-72A3-DD1B-E616DCBA9680">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 10:38:43 UTC</createdTime>
+<generatorID>41CC04A3-B216-0694-4C81-84828C0B189F</generatorID>
+<ownerDesignName>ex03_DLVY_model</ownerDesignName>
+<engineerTo>
+<item key="F7468102-8595-7832-D7D5-0435E27C72A5" value="true"/>
+</engineerTo>
+<referedAttribute>EF4FE84F-59D4-A50A-5C57-50687AA1D36A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="order_id" id="888AA757-44D5-BAFA-6BDF-1F9CFE067A6E">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 10:39:34 UTC</createdTime>
+<generatorID>A230515D-C3B6-25B1-4D39-FB6651BBEE3F</generatorID>
+<ownerDesignName>ex03_DLVY_model</ownerDesignName>
+<engineerTo>
+<item key="F7468102-8595-7832-D7D5-0435E27C72A5" value="true"/>
+</engineerTo>
+<referedAttribute>6F440687-001F-DC2E-CF26-0239D24ACE83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="export_id" id="4957CE37-DD2D-C200-D03E-121CCF738C02">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 10:46:27 UTC</createdTime>
+<generatorID>703274EC-0A9E-99A7-6B46-8800B8BD77EA</generatorID>
+<ownerDesignName>ex03_DLVY_model</ownerDesignName>
+<engineerTo>
+<item key="F7468102-8595-7832-D7D5-0435E27C72A5" value="true"/>
+</engineerTo>
+<referedAttribute>2762FFD0-B86E-71A3-691A-F0F08485BC9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70180B8C-F0B9-71B0-BCF9-A2E7700CFA58" name="Начисление курьеру PK">
+<createdBy>alekseev</createdBy>
+<createdTime>2026-02-10 09:30:53 UTC</createdTime>
+<ownerDesignName>ex03_DLVY_model</ownerDesignName>
+<engineerTo>
+<item key="F7468102-8595-7832-D7D5-0435E27C72A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA7CB402-9652-A670-68C6-8E332C3613B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
